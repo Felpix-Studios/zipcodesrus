@@ -5,8 +5,8 @@
   "description":"All you ever needed to know about ZIP Codes.",
   "author":"Kevin Li",
   "icons": {
-    "16": "images/icon16.png",
-    "48": "images/icon48.png",
-    "128": "images/icon128.png"
+    "16": "images/zip16.png",
+    "48": "images/zip48.png",
+    "128": "images/zip128.png"
   }
 }
