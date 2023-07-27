@@ -4,9 +4,22 @@
   "version": "1.0",
   "description":"All you ever needed to know about ZIP Codes.",
   "author":"Kevin Li",
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
   "icons": {
     "16": "images/zip16.png",
     "48": "images/zip48.png",
     "128": "images/zip128.png"
+  },
+  "content_scripts":[
+    {
+      "js":["scripts/content.js"],
+      "matches":["http://*/*","https://*/*"]
+    }
+  ],
+  "action":{
+    "default_icon":"images/zip16.png",
+    "default_popup":"index.html"
   }
 }
